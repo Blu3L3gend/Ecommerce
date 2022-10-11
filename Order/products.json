@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "item": "Nintendo Switch",
+      "description": "Customizable Nintendo Switches, Contact us for more our Customization options",
+      "price": "Customizations: $30.00",
+      "image": "/Images2/LOZnintendoswitch.webp"
+    },
+    {
+      "item": "PS4/PS5",
+      "description": "PS4 and PS5 Consoles",
+      "price": "Customizations: $50.00",
+      "image": "/Images2/dragonballps4.png"
+    },
+    {
+      "item": "Xbox",
+      "description": "Xbox one and Series",
+      "price": "$50.00",
+      "image": "/Images2/xbox.png"
+    },
+    {
+      "item": "Controllers",
+      "description": "Pro Controllers, Xbox controllers, PS4/PS5 controllers",
+      "price": "$100",
+      "image": "/Images2/MKps4controller.jpeg"
+    },
+    {
+      "item": " Gaming Headphones",
+      "description": "Beats,HyperX,Etc..",
+      "price": "$50.00",
+      "image": "/Images2/hyperx.png"
+    },
+    {
+      "item": "Hats",
+      "description": "OneUp your Waredrobe with our Merch!",
+      "price": "$15.00",
+      "image": "/Images2/beanie.png"
+    },
+    {
+      "item": "Hoodies",
+      "description": "OneUp your Waredrobe with our Customizable Merch!",
+      "price": "$15.00",
+      "image": "/Images2/hoodie.png"
+    },
+    {
+      "item": "Shirts",
+      "description": "OneUp your Waredrobe with our Merch!",
+      "price": "$20.00",
+      "image": "/Images2/shirt.png"
+    },
+    {
+      "item": "Accessories",
+      "description": "Coming Soon....",
+      "price": "Not Available",
+      "image": "/Images2/sorry.png"
+    },
+    {
+      "item": "Posters",
+      "description": "Coming Soon....",
+      "price": "Not Available",
+      "image": "/Images2/sorry.png"
+    },
+    {
+      "item": "BookBags",
+      "description": "Coming Soon....",
+      "price": "Not Available",
+      "image": "/Images2/sorry.png"
+    }
+  ]
+}

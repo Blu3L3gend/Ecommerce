@@ -1,0 +1,454 @@
+/* ------------ how the HOME PAGE and Nav bar is made----------------- */
+/* CREATES THE NAV BAR*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 50px;
+  overflow: hidden;
+  background-color: black;
+}
+nav {
+  display: flex;
+}
+/*---------- When you hover over the nav bar---------*/
+li a:hover {
+  background-color: lightcoral;
+}
+/* ----------------------------- */
+/* ----------------------------------------------------------- */
+/* -------------how i made my logo in the nav------------*/
+.Logo {
+  vertical-align: middle;
+  width: 138px;
+  height: 127px;
+  border-radius: 0%;
+  margin-left: 26%;
+  margin-bottom: 20%;
+}
+
+/* -------------------HERO IMAGE ---------------------*/
+body {
+  height: auto;
+  overflow: auto;
+}
+
+.hero-image {
+  background-image: url(/Images2/joystick-gaming-controller-isolated-pastel-pink-background_149453-170.webp);
+  height: 685.5px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 110.5%;
+  position: relative;
+  margin-bottom: 0%;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* -------------------HERO IMAGE ---------------------*/
+button {
+  background-color: black; /*for the border*/
+  border: none;
+  border-width: 100%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*---- how long a button takes to transition+ button hover function ------*/
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: lightcoral;
+  color: white;
+}
+/*------------------------------------------------------------------------*/
+
+/* CONTACT PAGE */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/*making the background for contact page*/
+.Container {
+  background-image: url("imgs/Contact Page BG.jpg");
+  height: 700px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* for the submit button */
+input[type="submit"] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: lightcoral;
+}
+
+.Form {
+  max-width: 300px;
+}
+
+/*To Center the contact page*/
+.Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*for the message box*/
+input[type="text"],
+select,
+textarea {
+  font-family: sans-serif;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* ----------------------Footer------------------------ */
+/* And also social media */
+
+.footer-distributed {
+  background-color: #292c2f; /*changes the background color of the footer*/
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease 0.25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease 0.25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition: all 0.25s;
+}
+
+.footer-distributed .footer-right a:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.footer-distributed p.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/*------Slideshow/Slider----------*/
+body {
+  margin: 0;
+  height: calc(100vh - 8em);
+  font-family: "Muli", sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  margin: 4em;
+}
+
+.container {
+  width: 100%;
+
+  position: relative;
+}
+
+.items {
+  display: flex;
+  width: fit-content;
+  animation: carouselAnim 60s infinite alternate linear;
+  background-color: rgb(243, 163, 176);
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  background: white;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+p {
+  text-align: center;
+  padding: 1em;
+}
+
+p.name {
+  font-weight: bold;
+}
+
+@keyframes carouselAnim {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(calc(-100% + (5 * 300px)));
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .items {
+    animation: carouselAnim 30s infinite alternate linear;
+  }
+
+  @keyframes carouselAnim {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(calc(-100% + (2 * 300px)));
+    }
+  }
+}
+
+.faders {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+.left,
+.right {
+  background: linear-gradient(
+    to right,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  height: 100%;
+  position: absolute;
+  z-index: 200;
+}
+
+.right {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+}
+/*------------------------------------------------*/
+/* Media Queries*/
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+/*---------------Responsive for Iphone 12 pro and lower-----------------------------*/
+@media screen and (max-width: 390px) {
+  body {
+    height: auto;
+    overflow: auto;
+  }
+  .hero-image {
+    background-image: url(/Images2/joystick-gaming-controller-isolated-pastel-pink-background_149453-170.webp);
+    height: 514.5px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 198.5%;
+    position: relative;
+    margin-bottom: 76px;
+    margin-top: -3px;
+  }
+  .footer-distributed {
+    background-color: #292c2f; /*changes the background color of the footer*/
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 145px 39px;
+    margin-top: -76px;
+  }
+
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease 0.25s;
+  }
+
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease 0.25s;
+  }
+
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+  }
+
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition: all 0.25s;
+  }
+
+  .footer-distributed .footer-right a:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+
+  .footer-distributed p.footer-links a:hover {
+    text-decoration: underline;
+  }
+}
+/*-------------------------------------------------*/
